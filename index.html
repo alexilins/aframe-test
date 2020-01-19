@@ -12,11 +12,7 @@
         <img id="profile-photo" src="assets/photo.jpg" />
       </a-assets>
 
-      <a-marker-camera
-        preset="custom"
-        type="pattern"
-        patternUrl="assets/pattern-ai.patt"
-      >
+      <a-marker preset="custom" type="pattern" url="assets/pattern-ai.patt">
         <a-plane
           src="#texture"
           height="1.15"
@@ -41,7 +37,7 @@
           position="-0.5 0.01 0"
           rotation="-90 0 0"
         ></a-image>
-      </a-marker-camera>
+      </a-marker>
       <a-entity camera></a-entity>
     </a-scene>
   </body>
